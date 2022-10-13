@@ -58,4 +58,4 @@ select op in install uninstall quit; do
         quit) break ;;
     esac
     break
-done
+done < /dev/tty
